@@ -7,4 +7,6 @@
     <string name="name_watch">Name Watch</string>
     <string name="price">Price</string>
     <string name="click_here_to_order_via_email">Click Here To Order Via Email</string>
+    <string name="nama_pemesan">Nama Pemesan</string>
+    <string name="alamat">Alamat</string>
 </resources>

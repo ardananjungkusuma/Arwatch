@@ -39,7 +39,7 @@ public class OptionActivity extends AppCompatActivity {
     }
 
     public void buy(View view) {
-        Intent i = new Intent(OptionActivity.this,Checkout.class);
+        Intent i = new Intent(OptionActivity.this,CheckoutDetail.class);
         startActivity(i);
     }
 }

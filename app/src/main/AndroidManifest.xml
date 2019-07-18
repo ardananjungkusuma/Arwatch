@@ -11,10 +11,13 @@
         android:roundIcon="@mipmap/logo_arwatch_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Checkout"></activity>
+        <activity android:name=".CheckoutDetail"></activity>
+        <activity android:name=".Checkout" />
         <activity android:name=".Processed" />
         <activity android:name=".OptionActivity" />
-        <activity android:name=".SplashScreen" android:screenOrientation="portrait">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
