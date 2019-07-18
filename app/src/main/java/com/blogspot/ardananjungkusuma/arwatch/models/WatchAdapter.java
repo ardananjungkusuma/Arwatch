@@ -26,7 +26,7 @@ public class WatchAdapter extends RecyclerView.Adapter<WatchAdapter.WatchViewHol
     public interface OnWatchClickListener {
         public void onClick(View view, int position);
     }
-
+    //todo : 3 Bikin adapter
     public void setListener(OnWatchClickListener listener){
         this.listener=listener;
     }
