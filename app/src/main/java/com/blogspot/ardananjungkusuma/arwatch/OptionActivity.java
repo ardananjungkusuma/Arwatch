@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.blogspot.ardananjungkusuma.arwatch.models.Watch;
+import com.blogspot.ardananjungkusuma.arwatch.data.Watch;
 import com.squareup.picasso.Picasso;
 
 import java.security.Key;
@@ -34,8 +34,8 @@ public class OptionActivity extends AppCompatActivity {
         //terakhir sampai sini
         resultName.setText(watch.getName());
         resultDesc.setText(watch.getDesc());
-        resultDetail.setText(watch.getDetail());
-        Picasso.get().load(watch.getImageUrl()).into(resultImgUrl);
+      //  resultDetail.setText(watch.getDetail());
+       // Picasso.get().load(watch.getImageUrl()).into(resultImgUrl);
 
     }
 

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.blogspot.ardananjungkusuma.arwatch.R;
-import com.blogspot.ardananjungkusuma.arwatch.models.Watch;
+import com.blogspot.ardananjungkusuma.arwatch.data.Watch;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -64,7 +64,7 @@ public class RecyclerWatchListAdapter extends RecyclerView.Adapter<WatchItemView
         // Pasang datanya di ViewHolder saat ini
         String name = currentWatch.getName();
         String price = currentWatch.getDesc();
-        String image = currentWatch.getImageUrl();
+        String image = currentWatch.getImgUrl();
 
         holder.getTxvName().setText(name);
         holder.getTxvPrice().setText(price);
