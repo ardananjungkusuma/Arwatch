@@ -1,11 +1,12 @@
 package com.blogspot.ardananjungkusuma.arwatch;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.blogspot.ardananjungkusuma.arwatch.models.Watch;
 import com.squareup.picasso.Picasso;
