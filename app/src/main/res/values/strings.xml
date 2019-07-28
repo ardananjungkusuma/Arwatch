@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Arwatch</string>
+    <string name="app_name">Arwatch Store</string>
     <string name="arwatch">Arwatch</string>
     <string name="every_people_has_their_own_watch">Every People Has Their Own Watch</string>
     <string name="arwatch_co">Arwatch.Co</string>
@@ -7,4 +7,5 @@
     <string name="name_watch">Name Watch</string>
     <string name="price">Price</string>
     <string name="click_here_to_order_via_email">Click Here To Order Via Email</string>
+    <string name="watch_shop_is_an_official_stockist_for_all_watch_brands_listed_on_this_website_established_in_1991_on_the_high_street_watch_shop_is_a_leading_retailer_of_brand_name_designer_watches_and_is_also_the_uk_s_most_popular_watch_website_watch_shop_was_the_first_independent_watch_retailer_to_advertise_on_national_television_and_we_pride_ourselves_on_having_one_of_the_most_efficient_shopping_systems_available_with_communication_at_every_stage_to_inform_you_of_your_order_status_as_well_as_excellent_7_days_sales_customer_service_and_support_team_who_are_glad_to_assist_you_with_any_enquiry">Arwatch is an official stockist for all watch brands listed on this website. Established in 1991 on the high street, Arwatch is a leading retailer of brand name designer watches and is also the UK\'s most popular watch website*. Arwatch was the first independent watch retailer to advertise on national television, and we pride ourselves on having one of the most efficient shopping systems available with communication at every stage to inform you of your order status, as well as excellent 7-days sales, customer service and support team who are glad to assist you with any enquiry.</string>
 </resources>

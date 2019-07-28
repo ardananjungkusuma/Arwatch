@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#ffff">
+    android:background="#ffff"
+    android:onClick="formGan">
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
@@ -24,9 +25,32 @@
             app:layout_constraintTop_toBottomOf="@+id/title"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:text="@string/don_t_look_the_price_just_buy_it"
+            android:text="Limited Watch for Limited People"
             android:textStyle="italic"
             android:fontFamily="@font/mayann"
+            />
+        <TextView
+            android:id="@+id/clickHereToBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/indian_red"
+            android:text="Click Here for Ordering Information"
+            android:fontFamily="@font/mayann"
+            app:layout_constraintTop_toBottomOf="@+id/descTitle"/>
+        <TextView
+            android:id="@+id/explainProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="These Product Over Here isnt Always Available"
+            android:fontFamily="@font/mayann"
+            app:layout_constraintTop_toBottomOf="@id/clickHereToBuy"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
             />
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_watch_list"
@@ -35,10 +59,9 @@
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="80dp"
+            android:onClick="formGan"
+            android:layout_marginTop="150dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/descTitle"></androidx.recyclerview.widget.RecyclerView>
+            app:layout_constraintTop_toBottomOf="@+id/explainProduct"></androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -78,4 +78,8 @@ public class MainActivity extends AppCompatActivity{
             }
         });
     }
+    public void formGan(View view) {
+        Intent i = new Intent(MainActivity.this,FormBuy.class);
+        startActivity(i);
+    }
 }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhyUs">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arwatch_co"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/mayann"/>
+    <TextView
+        android:id="@+id/descTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Limited Watch for Limited People"
+        android:textStyle="italic"
+        android:fontFamily="@font/mayann"
+        />
+    <TextView
+        android:id="@+id/titleWhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/monteros"
+        android:text="Why Us?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descTitle"/>
+    <ScrollView
+        app:layout_constraintTop_toBottomOf="@id/titleWhy"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="20dp"
+            android:fontFamily="@font/monteros"
+            android:textSize="20sp"
+            android:paddingRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/watch_shop_is_an_official_stockist_for_all_watch_brands_listed_on_this_website_established_in_1991_on_the_high_street_watch_shop_is_a_leading_retailer_of_brand_name_designer_watches_and_is_also_the_uk_s_most_popular_watch_website_watch_shop_was_the_first_independent_watch_retailer_to_advertise_on_national_television_and_we_pride_ourselves_on_having_one_of_the_most_efficient_shopping_systems_available_with_communication_at_every_stage_to_inform_you_of_your_order_status_as_well_as_excellent_7_days_sales_customer_service_and_support_team_who_are_glad_to_assist_you_with_any_enquiry"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
